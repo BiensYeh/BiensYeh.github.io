@@ -3,8 +3,22 @@
 <head>
  <meta charset="UTF-8"> 
 <title>Codenames</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body>
+
+<body onload="onIndexLoad()"> 
+
+<a id = "publicBut" href="public.html" class="btn btn-primary btn-block btn-success" role="button">Public</a>
+<a id = "privateBut" href="private.html" class="btn btn-primary btn-block btn-danger" role="button">Private</a>
+
+<div id = "container"></div>
+
+<script src="words.js"></script>
+<script src="data.js"></script>
 
 </body>
 </html> 
